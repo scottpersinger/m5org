@@ -2,6 +2,5 @@
 
 <p>Description...</p>
 
-<p><a href="{{app_name}}/app.html">Launch App</a></p>
+<p><a href="http://{{app_name}}.app.m5apps.org/">Launch App</a></p>
 
-<p><a href="sim__">Launch in Simulator</a></p>
