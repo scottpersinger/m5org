@@ -35,7 +35,11 @@ def index():
     dir = root_path("apps/*")
     apps = map(lambda path:re.sub("apps", "app", path), glob.glob(dir))
     
-    return template("index", apps = apps, basename = os.path.basename, host_name = request.headers['Host'])
+    return template("index", apps = apps, basename = os.path.basename, host_name = request.headers['Host'], path=request.environ.get('PATH_INFO'))
+
+@route('/:page#(learn|download|about)#')
+def page(page):
+    return template(page, path=request.environ.get('PATH_INFO'))
 
 @route ("/favicon.ico")
 def favicon():
@@ -44,6 +48,10 @@ def favicon():
 @route('/static/:path#.+#')
 def server_static(path):
     return static_file(path, root=root_path('static'))
+
+@route('/images/:path#.+#')
+def server_static(path):
+    return static_file(path, root=root_path('images'))
 
 @error(500)
 def error500(error):
