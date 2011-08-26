@@ -275,11 +275,15 @@ Feel free to follow us on Twitter and to subscribe to our RSS feed. You can also
   	  });
   	  
   	  $('#tc-icon').bind('mouseup', function() {
-  	    loadApp('http://techcrunch.app.m5apps.org')
+  	    loadApp('http://techcrunch.app.m5apps.org');
   	  });
 
   	  $('#gc-icon').bind('mouseup', function() {
-  	    loadApp('http://cities.app.m5apps.org')
+  	    loadApp('http://cities.app.m5apps.org');
+  	  });
+
+  	  $('#ya-icon').bind('mouseup', function() {
+  	    loadApp('http://localhost:8080/proxy?url=' + encodeURIComponent('http://mail.yahoo.com') + '&agent=phone');
   	  });
 
 	    $('#iphone-button').mouseup(function() {

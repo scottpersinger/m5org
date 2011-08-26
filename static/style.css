@@ -52,11 +52,11 @@ body {
 	
 header#site_head {
 	background: url(/images/bck_head.jpg);
-	-moz-box-shadow: inset 0px -2px 3px #480508;
-	-khtml-box-shadow: inset 0px -2px 3px #480508;				
-	-webkit-box-shadow: inset 0px -2px 3px #480508;
-	box-shadow: inset 0px -2px 3px #480508;
-	border-bottom: 1px solid #fffffb;
+	-moz-box-shadow: inset 0px -2px 3px #080548;
+	-khtml-box-shadow: inset 0px -2px 3px #080548;				
+	-webkit-box-shadow: inset 0px -2px 3px #080548;
+	box-shadow: inset 0px -2px 3px #080548;
+	border-bottom: 1px solid #fbffff;
 	height: 70px;
 	width: 100%;
 	display: block;
@@ -172,6 +172,7 @@ header#site_head {
   border:none;
   margin-top:-216px;
   margin-left:-186px;
+  background-color:#FFFFFF;
 }
 
 #main_content {	

@@ -15,8 +15,8 @@
 		
 		<nav class="head_nav">
 		<ul>
-			<li class="rss"><a href="#">Subscribe</a></li>
-			<li class="twitter"><a href="#">Follow Me</a></li>
+			<!--li class="rss"><a href="#">Subscribe</a></li>
+			<li class="twitter"><a href="#">Follow Me</a></li-->
 			<li class="{{(path == '/' and 'current') or ''}}"><a href="/">Home</a></li>
 			<li class="{{(path == '/download' and 'current') or ''}}"><a href="/download">Download</a></li>
 			<li class="{{(path == '/learn' and 'current') or ''}}"><a href="/learn">Learn</a></li>
