@@ -44,9 +44,12 @@ h2 {
 body {
 	background: #f6f6ee url(/images/bck.jpg);
 	font-family : "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif; 
-	font-size: 12px;
+	font-size: 14px;
 	}	
 
+#docpage h1, h2 {
+  margin: 14px 0;
+}
 
 /* Header */
 	
@@ -286,14 +289,18 @@ header#site_head {
 		
 		header h2 {
 			border-bottom: 1px solid #dbdbd4;			
-			margin: 20px;
-			padding-bottom: 20px;
-			text-align: center;
+			margin: 20px 0px;
+			padding-bottom: 10px;
+			padding-top:20px;
+			text-align: left;
+		}
+		
+		header h2.first {
+		  padding-top:0px;
 		}
 		
 		div.single_post p, section#archive p {
-			padding: 0 20px;
-			font-size: 12px;
+			font-size: 14px;
 			line-height: 20px;
 		}
 		

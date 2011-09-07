@@ -3,15 +3,15 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>{{title or 'M5 - The HTML5 Mobile App Toolkit'}}</title>
-	<link href="static/style.css" rel="stylesheet" type="text/css" media="screen" />
-	<script src="static/modernizr-1.1.min.js"></script>
+	<link href="/static/style.css" rel="stylesheet" type="text/css" media="screen" />
+	<script src="/static/modernizr-1.1.min.js"></script>
 	<script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
 	
 </head>
 <body>
 	<header id="site_head"><!--useful to create the 960px limit-->
 		<div class="header_cont">
-		<h1><a href="#">mr. hurley</a></h1>
+		<h1 style="margin:0"><a href="#">M5 Apps</a></h1>
 		
 		<nav class="head_nav">
 		<ul>

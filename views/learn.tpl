@@ -5,7 +5,7 @@
       <header class="section_tit"><h3>M5 Intro</h3></header>
       
       <article>
-        <header><h2>Overview</h2></header>
+        <header><h2 class="first">Overview</h2></header>
         <p>
           M5 is a "batteries included" toolkit for building mobile apps in HTML5. It aims to
           be the easiest way to get a great mobile app built and deployed. The core
@@ -39,7 +39,7 @@
         <ul>
           <li>Watch some of the videos on this page.</li>
           <li>Read about the <a href="/about">M5 philosophy</a></li>
-          <li>Dig into the <a href="/docs">documentation</a></li>
+          <li>Dig into the <a href="/docs/">documentation</a></li>
           <li><a href="/browse">Browse</a> some of the apps built with M5</li>
         </ul>
       </articl>

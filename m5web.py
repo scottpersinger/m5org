@@ -5,10 +5,12 @@ import glob
 import pdb
 import tarfile
 import shutil
+import markdown
+import pkgutil
 
-sys.path.append("../")
-from m5compiler import M5Compiler
-from m5app import M5App
+import m5
+from m5.compiler import M5Compiler
+from m5.app import M5App
         
 def root_path(*paths):
     return os.path.join(os.path.dirname(__file__), *paths)
@@ -53,6 +55,14 @@ def server_static(path):
 def server_static(path):
     return static_file(path, root=root_path('images'))
 
+@route ('/docs/:path#.*#')
+def server_doc(path):
+    path = path or "index.md"
+    body = pkgutil.get_data("m5", "../docs/tutorial/" + path)
+    if body:
+        body = markdown.markdown(body)
+    return template("docs", body=body, path=path)
+        
 @error(500)
 def error500(error):
     print error.exception
