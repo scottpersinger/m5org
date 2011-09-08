@@ -41,7 +41,11 @@ def index():
 
 @route('/:page#(learn|download|about)#')
 def page(page):
-    return template(page, path=request.environ.get('PATH_INFO'))
+    if page == "about":
+        body = markdown.markdown(pkgutil.get_data("m5", "../docs/tutorial/background.md"))
+    else:
+        body = ""
+    return template(page, path=request.environ.get('PATH_INFO'), body = body)
 
 @route ("/favicon.ico")
 def favicon():

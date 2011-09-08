@@ -51,6 +51,10 @@ body {
   margin: 14px 0;
 }
 
+#docpage p {
+  margin-bottom:10px;
+}
+
 /* Header */
 	
 header#site_head {
