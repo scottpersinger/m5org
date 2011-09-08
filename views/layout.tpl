@@ -32,7 +32,9 @@
 		<footer class="bottom">
 		  <img src="http://www.opensource.org/files/osi_standard_logo.png" style="height:60px;float:left"/>
 			<p>Copyright(c) M5 Apps Foundation, 2011</p>
-			<p>Design by <a href="http://www.pvmgarage.com/">Piervincenzo Madeo</a></p>
+%if path == "/about":			
+			<p>Site design by <a href="http://www.pvmgarage.com/">Piervincenzo Madeo</a></p>
+%end
 		</footer>
 	</div>
 	

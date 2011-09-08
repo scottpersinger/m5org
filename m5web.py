@@ -39,7 +39,7 @@ def index():
     
     return template("index", apps = apps, basename = os.path.basename, host_name = request.headers['Host'], path=request.environ.get('PATH_INFO'))
 
-@route('/:page#(learn|download|about)#')
+@route('/:page#(learn|download|about|browse)#')
 def page(page):
     if page == "about":
         body = markdown.markdown(pkgutil.get_data("m5", "../docs/tutorial/background.md"))

@@ -2,20 +2,20 @@
 
   <div class="left_cont">
     <section id="archive">
-      <header class="section_tit"><h3>M5 Intro</h3></header>
+      <header class="section_tit"><h3>Overview</h3></header>
       
       <article>
-        <header><h2 class="first">Overview</h2></header>
         <p>
-          M5 is a "batteries included" toolkit for building mobile apps in HTML5. It aims to
-          be the easiest way to get a great mobile app built and deployed. The core
+          M5 is a "batteries included" toolkit for building mobile apps in HTML5. It helps
+          in each step of the process of building your app. The core
           components of the toolkit include:
           <ul>
-            <li>UI toolkit - provided by <a href="http://jquerymobile.com">jQuery Mobile</a></li>
+            <li>App templates and examples</li>
+            <li>UI toolkit - supports <a href="http://jquerymobile.com">jQuery Mobile</a> and <a href="http://jqtouch.com">jQTouch</a></li>
             <li>Local web server for development and testing</li>
             <li>Browser-based simulator</li>
             <li>Remote debugger</li>
-            <li>Package manager</li>
+            <li>Package manager (<span style="color:orange">coming soon!</span>)</li>
             <li>Build and deploy system</li>
           </ul>
         </p>

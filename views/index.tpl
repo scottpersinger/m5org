@@ -10,7 +10,7 @@
       </div>
       <div class="art" style="width:450px">
         <header class="post_head">
-          <h2>M5 is an open source toolkit created to be the easiest way to build a mobile app in HTML5.</h2>
+          <h2 style="margin:10px">M5 is an open source toolkit that helps you create great HTML5 mobile apps.</h2>
           <div id="top_menu" style="text-align:center">
             <span class="more_arch"><a href="download">Download</a></span>
             <span class="more_arch"><a href="learn">Learn</a></span>

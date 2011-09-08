@@ -27,7 +27,6 @@
     <p>Due to the flexibility of web technology, exactly <strong>how</strong> you build an HTML "app" is subject to much
     debate. Some of the possibilities include:</p>
     <ol>
-    <li>Standard web site. No special mobile support.</li>
     <li>Web site with mobile stylesheet. Custom styles make web pages easier to read on mobile device screens.</li>
     <li>Server generated mobile app. App is composed of pages with special CSS rules and Javascript to enable
     an "app-like" experience on a mobile device. But, each page is still generated on the server and served
@@ -38,7 +37,7 @@
     </ol><br />
     <p>The farther down you go on this list, the closer you get to the native "app" experience that users
     have come to expect. And if you look at the mobile apps from the leading tech companies (Google,
-    Twitter, LinkedIn), they all use approach #4. For this reason, M5 is designed to build apps
+    Twitter, LinkedIn), they all use the last approach. For this reason, M5 is designed to build apps
     in that way. Thus M5 uses the following app definition:</p>
     <blockquote>
     <p><em>An app which generates the dynamic portion of its interface via Javascript executed on the client.
