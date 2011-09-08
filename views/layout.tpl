@@ -11,7 +11,7 @@
 <body>
 	<header id="site_head"><!--useful to create the 960px limit-->
 		<div class="header_cont">
-		<h1 style="margin:0"><a href="#">M5 Apps</a></h1>
+		<h1 style="margin:0"><a href="/">M5 Apps</a></h1>
 		
 		<nav class="head_nav">
 		<ul>
